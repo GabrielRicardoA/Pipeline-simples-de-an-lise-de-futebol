@@ -232,5 +232,6 @@ Possíveis melhorias futuras:
 ---
 
 # 👨‍💻 Autor
+Gabriel Ricardo
 
 Projeto desenvolvido como parte da evolução em **Engenharia de Dados utilizando Python e ferramentas do ecossistema de dados**.
