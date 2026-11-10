@@ -230,6 +230,32 @@ Possíveis melhorias futuras:
 - Criar dashboards interativos
 
 ---
+# ▶️ Como Executar
+
+1. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Crie uma chave gratuita em [football-data.org](https://www.football-data.org/client/register).
+
+3. Crie o arquivo `src/config.py` com a sua chave:
+
+```python
+api_key = "SUA_CHAVE_AQUI"
+```
+
+Esse arquivo fica fora do repositório (está no `.gitignore`) para não expor a chave.
+
+4. Rode a pipeline a partir da pasta `src`:
+
+```bash
+cd src
+python main.py
+```
+
+---
 
 # 👨‍💻 Autor
 Gabriel Ricardo
